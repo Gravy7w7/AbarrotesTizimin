@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.proyecto.abarrotestizimin.ControllerCompra">
+   <children>
+      <Label fx:id="cliente_Aviso" layoutX="404.0" layoutY="162.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="articulo_Aviso" layoutX="404.0" layoutY="203.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="compra_Aviso" layoutX="390.0" layoutY="454.0" prefHeight="16.0" prefWidth="440.0">
+         <font>
+            <Font name="Times New Roman" size="14.0" />
+         </font>
+      </Label>
+      <AnchorPane layoutX="10.0" layoutY="10.0" prefHeight="106.0" prefWidth="814.0">
+         <children>
+            <ImageView fitHeight="99.0" fitWidth="845.0" layoutX="-12.0" layoutY="3.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/banner.jpg" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="106.0" fitWidth="200.0" layoutX="28.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/Tienda_Icon.png" />
+               </image>
+            </ImageView>
+            <Label alignment="CENTER" layoutX="475.0" layoutY="69.0" prefHeight="39.0" prefWidth="193.0" text="Registrar compra">
+               <font>
+                  <Font name="Times New Roman Bold" size="22.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="27.0" layoutY="138.0" prefHeight="418.0" prefWidth="363.0">
+         <children>
+            <Label alignment="CENTER" layoutX="22.0" layoutY="217.0" text="Código del producto: ">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Id_producto" layoutX="159.0" layoutY="213.0" />
+            <Label alignment="CENTER" layoutX="19.0" layoutY="269.0" text="Cantidad del producto:">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <TextField fx:id="Cantidad_productos" layoutX="159.0" layoutY="264.0" />
+            <Label alignment="CENTER" layoutX="115.0" layoutY="166.0" text="Compra:">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="Btn_agregar" layoutX="29.0" layoutY="320.0" mnemonicParsing="false" onAction="#presionarAgregar" text="Agregar" />
+            <Button fx:id="Btn_finalizar" layoutX="149.0" layoutY="316.0" mnemonicParsing="false" onAction="#presionarFinalizar" text="Finalizar compra" />
+            <TextField fx:id="Id_cliente" layoutX="29.0" layoutY="51.0" />
+            <Label alignment="CENTER" layoutX="21.0" layoutY="20.0" text="Ingresa el código del cliente: ">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </Label>
+            <Button fx:id="Btn_continuar" layoutX="194.0" layoutY="86.0" mnemonicParsing="false" onAction="#presionarContinuar" text="Continuar" />
+            <Button fx:id="Btn_salir" layoutX="284.0" layoutY="352.0" mnemonicParsing="false" onAction="#presionarSalir" text="Salir">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="468.0" layoutY="238.0" prefHeight="124.0" prefWidth="298.0">
+         <children>
+            <ImageView fitHeight="246.0" fitWidth="298.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../image/gato.gif" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
