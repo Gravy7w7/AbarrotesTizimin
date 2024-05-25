@@ -25,7 +25,7 @@
 
 ![Diagrama de clases](https://cdn.discordapp.com/attachments/1011822972606103593/1243714174727618743/DiagramaDeClases.png?ex=66527a96&is=66512916&hm=ad3ea9cce48967c25509109e18ea12724914398203e907d32b810ee8f098d435& "Diagrama de clases")
 
-### Diagrama de secuencia(Abarca el regitro de compra)
+### Diagrama de secuencia(Abarca el registro de compra)
 
 ![](https://cdn.discordapp.com/attachments/1011822972606103593/1243714194390515774/DiagramSecuencia.png?ex=66527a9b&is=6651291b&hm=5d9d88628bd5c180cc5b3257bbb5439d090b2229f003f534e617429c85366929& "Diagrama de secuencia")
 
